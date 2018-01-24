@@ -38,4 +38,26 @@ public class MainActivity extends AppCompatActivity{
         txtSoA = findViewById(R.id.txtSoA);
         txtSoB = findViewById(R.id.txtSoB);
     }
+
+//    @Override
+//    public void onClick(View v) {
+//        if(v == btnTong){
+//            int soA = Integer.parseInt(txtSoA.getText().toString());
+//            int soB = Integer.parseInt(txtSoB.getText().toString());
+//            int tong = soA+soB;
+//            txtKetQua.setText(""+tong);
+//        }
+//    }
+
+
+    
+//    public void tong2So(View v){
+//        addControls();
+//        int soA = Integer.parseInt(txtSoA.getText().toString());
+//        int soB = Integer.parseInt(txtSoB.getText().toString());
+//        int tong = soA+soB;
+//        txtKetQua.setText(""+tong);
+//    }
+
+
 }
